@@ -9809,13 +9809,11 @@ MOBILE GALLERY
     transform: scale(1.08);
 }
 
-
 /* Make sure the answer sits above other effects */
 
 .final-question-content {
     position: relative;
 }
-
 
 .final-answer {
     position: relative;
