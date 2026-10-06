@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>One More Thing... 🌹</title>
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+
+<body class="surprise-page">
+
+
+    <!-- =====================================================
+         NAVIGATION
+         ===================================================== -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            Tiego <span>♥</span>
+        </div>
+
+        <div class="nav-links">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="story.html">
+                Our Story
+            </a>
+
+            <a href="memories.html">
+                Memories
+            </a>
+
+            <a href="videos.html">
+                Videos
+            </a>
+
+            <a href="letter.html">
+                Letter
+            </a>
+
+            <a href="surprise.html"
+               class="active">
+                Surprise
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=3y0rLDDNPpU&list=RD3y0rLDDNPpU&start_radio=1"
+               target="_blank"
+               class="song-link">
+
+                🎵 Our Song
+
+            </a>
+
+        </div>
+
+    </nav>
+
+
+
+    <!-- =====================================================
+         HERO
+         ===================================================== -->
+
+    <main>
+
+
+        <section class="surprise-hero">
+
+            <div class="surprise-glow"></div>
+
+
+            <div class="surprise-hero-content">
+
+                <p class="surprise-eyebrow">
+                    THE FINAL CHAPTER
+                </p>
+
+
+                <div class="surprise-heart-top">
+                    ♥
+                </div>
+
+
+                <h1>
+
+                    One More
+                    <br>
+
+                    <span>Thing...</span>
+
+                </h1>
+
+
+                <div class="surprise-divider">
+                    ───── ♥ ─────
+                </div>
+
+
+                <p class="surprise-intro-text">
+
+                    You made it all the way here.
+
+                    <br>
+
+                    So I think you deserve
+                    one more surprise.
+
+                </p>
+
+
+                <button
+                    class="open-surprise-button"
+                    onclick="openSurprise()">
+
+                    <span>
+                        Open Your Surprise
+                    </span>
+
+                    <span>
+                        🌹
+                    </span>
+
+                </button>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             SURPRISE
+             ===================================================== -->
+
+        <section
+            id="surpriseReveal"
+            class="surprise-reveal">
+
+
+            <div class="rose-particles">
+
+                <span>♥</span>
+                <span>♥</span>
+                <span>♥</span>
+                <span>♥</span>
+                <span>♥</span>
+
+            </div>
+
+
+            <div class="surprise-card">
+
+
+                <p class="surprise-card-small">
+                    FOR TIEGO
+                </p>
+
+
+                <div class="rose">
+                    🌹
+                </div>
+
+
+                <h2>
+                    You Are My
+                    <br>
+                    <span>Favourite Chapter.</span>
+                </h2>
+
+
+                <div class="surprise-line">
+                    ♥
+                </div>
+
+
+                <p class="surprise-message">
+
+                    If you ever wonder how important
+                    you are to me, come back to this page.
+
+                </p>
+
+
+                <p class="surprise-message">
+
+                    Come back when you miss me.
+
+                    <br>
+
+                    Come back when you need a smile.
+
+                    <br>
+
+                    Come back when you forget
+                    just how loved you are.
+
+                </p>
+
+
+                <p class="surprise-message">
+
+                    Because somewhere in this little
+                    corner of the internet...
+
+                </p>
+
+
+                <p class="surprise-highlight">
+
+                    there will always be a place
+                    made especially for you.
+
+                </p>
+
+
+                <div class="surprise-divider-small">
+                    ─── ♥ ───
+                </div>
+
+
+                <p class="surprise-message">
+
+                    My B.
+
+                    <br>
+
+                    My Pontsana.
+
+                    <br>
+
+                    My person.
+
+                </p>
+
+
+                <p class="surprise-message">
+
+                    I will never run out of reasons
+                    to choose you.
+
+                </p>
+
+
+                <p class="surprise-signature">
+
+                    Forever your B,
+                    <br>
+
+                    <strong>
+                        Lehlohonolo ❤️
+                    </strong>
+
+                </p>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =====================================================
+             FINAL QUESTION
+             ===================================================== -->
+
+        <section class="final-question">
+
+
+            <div class="final-question-content">
+
+
+                <p class="question-eyebrow">
+                    BEFORE YOU GO...
+                </p>
+
+
+                <div class="question-heart">
+                    ♥
+                </div>
+
+
+                <h2>
+
+                    Will you keep
+                    <br>
+
+                    <span>making memories</span>
+                    <br>
+
+                    with me?
+
+                </h2>
+
+
+                <p>
+                    Because I don't think
+                    our story should end here.
+                </p>
+
+
+                <div class="question-buttons">
+
+                    <button
+                        type="button"
+                        onclick="answerYes(this)">
+
+                        YES ❤️
+
+                    </button>
+
+
+                    <button
+                        type="button"
+                        onclick="answerAlways(this)">
+
+                        ALWAYS ❤️
+
+                    </button>
+
+                </div>
+
+
+                <!-- FINAL ANSWER -->
+
+                <div
+                    id="finalAnswer"
+                    class="final-answer">
+
+                    <div class="final-answer-heart">
+                        ♥
+                    </div>
+
+                    <h3>
+                        Then this isn't the end...
+                    </h3>
+
+                    <p>
+                        It's only another beginning.
+                    </p>
+
+                    <span>
+                        ❤️
+                    </span>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             FINAL MESSAGE
+             ===================================================== -->
+
+        <section class="final-message">
+
+
+            <div class="final-message-content">
+
+
+                <p class="final-small">
+                    FOR TIEGO
+                </p>
+
+
+                <h2>
+                    Our story is
+                    <br>
+
+                    <span>
+                        still being written.
+                    </span>
+                </h2>
+
+
+                <div class="final-divider">
+                    ♥
+                </div>
+
+
+                <p>
+                    And honestly...
+                </p>
+
+
+                <p class="final-big">
+                    I wouldn't want
+                    to write it with anyone else.
+                </p>
+
+
+                <p class="final-signature">
+                    — Your B, Lehlohonolo
+                </p>
+
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- =====================================================
+         FOOTER
+         ===================================================== -->
+
+    <footer class="site-footer surprise-footer">
+
+        <p>
+            Made with love, especially for Tiego ❤️
+        </p>
+
+        <span>
+            B & Pontsana — Chapter One of many.
+        </span>
+
+    </footer>
+
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+         ===================================================== -->
+
+    <script>
+
+        // =====================================================
+        // OPEN SURPRISE
+        // =====================================================
+
+        function openSurprise() {
+
+            const reveal =
+                document.getElementById("surpriseReveal");
+
+
+            if (!reveal) {
+                return;
+            }
+
+
+            reveal.classList.add("show-surprise");
+
+
+            setTimeout(function () {
+
+                reveal.scrollIntoView({
+                    behavior: "smooth",
+                    block: "start"
+                });
+
+            }, 300);
+
+        }
+
+
+
+        // =====================================================
+        // SHOW FINAL ANSWER
+        // =====================================================
+
+        function showFinalAnswer(button) {
+
+            const answer =
+                document.getElementById("finalAnswer");
+
+
+            if (!answer) {
+                return;
+            }
+
+
+            // Show the answer
+
+            answer.classList.add("show-final-answer");
+
+
+            // Highlight the button that was clicked
+
+            if (button) {
+
+                button.classList.add("answer-selected");
+
+            }
+
+        }
+
+
+
+        // =====================================================
+        // YES BUTTON
+        // =====================================================
+
+        function answerYes(button) {
+
+            showFinalAnswer(button);
+
+        }
+
+
+
+        // =====================================================
+        // ALWAYS BUTTON
+        // =====================================================
+
+        function answerAlways(button) {
+
+            showFinalAnswer(button);
+
+        }
+
+    </script>
+
+
+</body>
+
+</html>

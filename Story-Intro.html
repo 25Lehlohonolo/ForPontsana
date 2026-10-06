@@ -1,0 +1,249 @@
+```html id="w4v8hx"
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Our Story Begins — Tiego ❤️</title>
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+
+<body class="story-intro-page">
+
+
+    <!-- =====================================================
+         STORY INTRO
+         ===================================================== -->
+
+    <main class="story-intro">
+
+
+        <!-- =================================================
+             HANDSHAKE VIDEO
+             ================================================= -->
+
+        <video
+            class="story-intro-video"
+            autoplay
+            muted
+            loop
+            playsinline>
+
+            <source
+                src="videos/Handshake.mp4"
+                type="video/mp4">
+
+            Your browser does not support video.
+
+        </video>
+
+
+        <!-- =================================================
+             DARK OVERLAY
+             ================================================= -->
+
+        <div class="story-intro-overlay"></div>
+
+
+        <!-- =================================================
+             TOP TITLE
+             ================================================= -->
+
+        <div class="story-intro-top">
+
+            <span></span>
+
+            <p>
+                FOR TIEGO
+            </p>
+
+            <span></span>
+
+        </div>
+
+
+        <!-- =================================================
+             MAIN MESSAGE
+             ================================================= -->
+
+        <div class="story-intro-content">
+
+
+            <p class="story-intro-label">
+                OUR STORY
+            </p>
+
+
+            <h1>
+
+                Somewhere between
+
+                <br>
+
+                two people...
+
+            </h1>
+
+
+            <div class="story-intro-heart">
+                ♥
+            </div>
+
+
+            <h2>
+                There was us.
+            </h2>
+
+
+            <p class="story-intro-text">
+
+                And somehow, without planning it,
+                you became one of the most beautiful
+                parts of my story.
+
+            </p>
+
+
+            <p class="story-intro-name">
+
+                — From your B, Lehlohonolo ❤️
+
+            </p>
+
+
+            <!-- =================================================
+                 CONTINUE BUTTON
+                 ================================================= -->
+
+            <button
+                class="story-intro-button"
+                onclick="continueStory()">
+
+                <span class="button-text">
+                    Continue Our Story
+                </span>
+
+                <span class="button-heart">
+                    ♥
+                </span>
+
+            </button>
+
+
+        </div>
+
+
+        <!-- =================================================
+             BOTTOM TEXT
+             ================================================= -->
+
+        <div class="story-intro-bottom">
+
+            <p>
+                A story worth remembering
+            </p>
+
+        </div>
+
+
+        <!-- =================================================
+             TRANSITION SCREEN
+             ================================================= -->
+
+        <div
+            id="storyTransition"
+            class="story-transition">
+
+
+            <div class="transition-content">
+
+                <div class="transition-heart">
+                    ♥
+                </div>
+
+
+                <p class="transition-title">
+                    OUR STORY CONTINUES...
+                </p>
+
+
+                <p class="transition-subtitle">
+                    One memory at a time.
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+    </main>
+
+
+    <!-- =====================================================
+         CONTINUE TO STORY
+         ===================================================== -->
+
+    <script>
+
+        function continueStory() {
+
+
+            /* Prevent multiple clicks */
+
+            const button =
+                document.querySelector(
+                    ".story-intro-button"
+                );
+
+
+            button.disabled = true;
+
+
+            /* Activate page fade */
+
+            document.body.classList.add(
+                "story-intro-exit"
+            );
+
+
+            /* Show transition message */
+
+            const transition =
+                document.getElementById(
+                    "storyTransition"
+                );
+
+
+            transition.classList.add(
+                "show-transition"
+            );
+
+
+            /* Open Our Story */
+
+            setTimeout(function () {
+
+                window.location.href =
+                    "story.html";
+
+            }, 1800);
+
+        }
+
+    </script>
+
+
+</body>
+
+</html>
+```
